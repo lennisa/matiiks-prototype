@@ -15,11 +15,11 @@ To address this, the prototype introduces a Rated vs Unrated Matchmaking System 
 The project combines:
 
 - realtime multiplayer systems
-- event-driven architecture
+- event driven architecture
 - ELO-based progression
-- mobile full-stack development
+- mobile full stack development
 - matchmaking systems
-- server-authoritative synchronization
+- server authoritative synchronization
 
 while focusing on improving the overall gameplay experience.
 
@@ -71,7 +71,7 @@ while still preserving the excitement of realtime multiplayer gameplay.
 
 ## Realtime Multiplayer Gameplay
 
-Players compete against each other in realtime math duels using low-latency WebSocket communication.
+Players compete against each other in realtime math duels using low latency WebSocket communication.
 
 ---
 
@@ -311,7 +311,6 @@ Current prototype limitations:
 
 
 
----
 
 # Screenshots
 
