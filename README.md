@@ -308,16 +308,7 @@ Current prototype limitations:
 
 ---
 
-# Demo
 
-Add:
-
-- gameplay video link
-- screenshots
-- presentation link
-- GitHub repository link
-
----
 
 
 ---
