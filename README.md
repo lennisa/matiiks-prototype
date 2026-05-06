@@ -319,6 +319,33 @@ Add:
 
 ---
 
+
+---
+
+# Screenshots
+
+## Login Screen
+
+![Login Screen](Screenshots/Login.png)
+
+## Home Screen
+
+![Home Screen](Screenshots/Home.png)
+
+## Matchmaking Screen
+
+![Matchmaking Screen](Screenshots/Matchmaking.png)
+
+## Gameplay Screen
+
+![Gameplay Screen](Screenshots/Game.png)
+
+## Result Screen
+
+![Result Screen](Screenshots/Result.png)
+
+---
+
 # Author
 
 Built as a realtime multiplayer systems prototype exploring matchmaking flexibility, competitive progression, and stress-free gameplay through Rated vs Unrated matchmaking.
