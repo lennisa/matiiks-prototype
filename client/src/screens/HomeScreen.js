@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, TouchableOpacity, Switch, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  Switch,
+  StyleSheet,
+  Linking,
+} from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { Ionicons } from "@expo/vector-icons";
 import socket from "../utils/socket";
@@ -86,6 +93,19 @@ export default function HomeScreen({ navigation, route }) {
             style={styles.button}
           >
             <Text style={styles.buttonText}>FAST & FIRST FINGER DUELS</Text>
+          </LinearGradient>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          onPress={() => {
+            Linking.openURL("https://matcattiks.onrender.com/");
+          }}
+        >
+          <LinearGradient
+            colors={["rgba(126,34,206,0.8)", "rgba(168,85,247,0.8)"]}
+            style={styles.button}
+          >
+            <Text style={styles.buttonText}>Play MatCattiks</Text>
           </LinearGradient>
         </TouchableOpacity>
       </View>
